@@ -1,0 +1,23 @@
+{
+    "name": "icsgenerator",
+    "version": "1.0.0",
+    "description": "ICS generator file",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon —exec index.js",
+        "test": "npm test",
+        "start:dev": "babel-node server.js"
+    },
+    "author": "Shravan",
+    "license": "ISC",
+    "dependencies": {
+        "uuid": "^8.3.0",
+        "uuidv4": "^6.2.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.4",
+        "@babel/node": "^7.10.5",
+        "@babel/preset-env": "^7.11.0",
+        "nodemon": "^2.0.4"
+    }
+}
